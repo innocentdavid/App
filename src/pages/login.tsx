@@ -62,7 +62,7 @@ export default function Login() {
 
   return (
     <>
-      <Navbar setLoginModalOpen={setOpen} user={null} />
+      <Navbar setLoginModalOpen={setOpen} user={null} socket={null} />
       <Dialog
         open={open}
         handler={handleOpen}
