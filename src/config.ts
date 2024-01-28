@@ -1,0 +1,1 @@
+export const MAX_STORED_LOG_LENGTH = 1000;
